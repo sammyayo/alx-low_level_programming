@@ -1,20 +1,22 @@
 #include "main.h"
-
 /**
- * main -Prints _putchar followed by a new line
+ * main - check the code for school students
  *
- * Return: 0 on success. Error code otherwise
+ * program that prints _putchar, followed by a new line
+ *
+ * Return: always 0 (success)
  */
-
 int main(void)
 {
-	char ch[] = "_putchar";
-	int i;
-	for (i = 0; i < 8; i++)
+	char s[] = "_putchar";
+	int i = 0;
+
+	while (s[i] != '\0')
 	{
-		_putchar(ch[i]);
+		_putchar(s[i]);
+		i++;
 	}
-	_putchar('\n');
+	_putchar(10);
 
 	return (0);
 }
