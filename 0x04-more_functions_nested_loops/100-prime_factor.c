@@ -11,7 +11,7 @@ int main(void)
 	n = 612852475143;
 	for (fp = 2; fp <= n; fp++)
 	{
-		if (n & fp == 0)
+		if (n % fp == 0)
 		{
 			n /= fp;
 			fp--;
