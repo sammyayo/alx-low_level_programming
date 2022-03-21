@@ -1,4 +1,4 @@
-nclude <stdlib.h>
+#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 
@@ -7,6 +7,7 @@ nclude <stdlib.h>
  * number stored in the variable n
  * Return: Always 0 (Success)
  */
+int main(void)
 {
 	int n;
 
