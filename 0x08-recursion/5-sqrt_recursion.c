@@ -11,6 +11,8 @@ int help(int n, int x)
 {
 	if (x * x == n)
 		return (x);
+	else if (x * x < n)
+		return (help(n, ++x));
 	return (-1);
 }
 
