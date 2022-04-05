@@ -1,9 +1,6 @@
-Learning Automatic and dynamic allocation, malloc and free
-
+Learning Automatic and dynamic allocation, malloc and free                   
 0 - A function that creates an array of chars, and initializes it with a specific char.
-
 1 - A function that returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter.
-
 2 - A function that concatenates two strings.
 
 3 - A function that returns a pointer to a 2 dimensional array of integers.
@@ -12,4 +9,4 @@ Learning Automatic and dynamic allocation, malloc and free
 
 5 - A function that concatenates all the arguments of your program.
 
-6 - A function that splits a string into words.
+6 - A function that splits a string into words.                              =======                                                                      low level programming                                                        This will be for more functions and nested loops                            
