@@ -1,26 +1,18 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
- * free_grid - use free function on previous grid
- * @grid: 2 dim. array to free
- *  @height: input height (size)
- *  Return: free'd grid
+ * free_grid - frees a 2 dimensional grid/array
+ * @grid: two dimensional grid/array
+ * @height: rows
  */
 
 void free_grid(int **grid, int height)
 {
-	int i;
+	int row;
 
-	if (grid != NULL || height != 0)
-	{
-		for (i = 0; i < height; i++)
-		{
-			free(grid[i]);
-		}
-		free(grid);
-	}
+	for (row = 0; row < height; row++)
+		free(grid[row]);
+
+	free(grid);
 }
-
-
-
