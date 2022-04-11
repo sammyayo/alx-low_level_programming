@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "dog.h
+#include "dog.h"
 
 /**
  * new_dog - write a function that creates a new dog
