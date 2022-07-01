@@ -70,7 +70,6 @@ shash_node_t *add_n_shash(shash_node_t **h, const char *key, const char *value)
 	return (tmp);
 }
 
-
 /**
  * add_i_shash - adds a node on the DLL of the shash table
  *
